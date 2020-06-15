@@ -15,6 +15,8 @@ npm install @innoflash/laravel-utils
 
 ## Usage
 > PS. Note that you can always customise the response by extending the interface to modify params according to your suit.
+>
+> All the responses passing extra data have keys named ```data``` but you can extend and override the key if you are wrapping your data with another key
 ### Action Response
 Used mainly for retrieving results and responses from save and delete ops to name a few.
 
