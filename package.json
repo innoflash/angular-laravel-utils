@@ -1,6 +1,6 @@
 {
-  "name": "laravel-utils",
-  "version": "0.0.1",
+  "name": "@innoflash/laravel-utils",
+  "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
