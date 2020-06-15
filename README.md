@@ -259,9 +259,9 @@ Used for mapping paginated results from the API.
     }
 }
 ```
-#### [PaginatedResponses](./src/lib/responses/paginated.response.ts)
+#### [PaginatedResponse](./src/lib/responses/paginated.response.ts)
 |Property         |Type         |Availability        |Description|
 |------------------|-----------------------|------------------------|------------------------|
-|```data```|**T[]** (generic)|mandatory|The collection of objects of type T|
+|`````data```|**T[]** (generic)|mandatory|The collection of objects of type T|
 |```links```|[Links](#links)|mandatory|The links of the paginated data.|
 |```meta```|[Meta](#meta)|mandatory|The meta data of the paginated data.|
