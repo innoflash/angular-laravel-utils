@@ -25,17 +25,17 @@ Used on responses like this one:
   "data": [... optional data if any]
 }
 ```
-[ActionResponse](./src/lib/responses/action.response.ts) 
+#### [ActionResponse](./src/lib/responses/action.response.ts) 
 
 |Property         |Type         |Availability        |Description|
 |------------------|-----------------------|------------------------|------------------------|
 |```success```|boolean|mandatory|To flag whether a transaction succeeded or failed|
-|```message```|string|The message being send from the server.|
+|```message```|string| mandatory|The message being send from the server.|
 |```data```| T (generic)| optional| The extra data you can send with for the transaction.|
 
 Example.
 ```typescript
-login(data: LoginObject): Observable<ActionResponse>{
+saveProfile(data: object): Observable<ActionResponse>{
     return this.http.post<ActionResponse>(url, data)
 }
 ```
