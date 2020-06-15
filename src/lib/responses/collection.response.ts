@@ -1,3 +1,3 @@
 export interface CollectionResponse<T> {
-  data: T;
+  data: T[];
 }
