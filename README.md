@@ -6,6 +6,7 @@ This library is basically mapping the most common Laravel API responses to an An
 * [Installation](#installion)
 * [Usage](#usage)
     * [Action Response](#action-response)
+    * [Error Response](#error-response)
 
 ## Installion
 ```sh 
@@ -39,3 +40,21 @@ saveProfile(data: object): Observable<ActionResponse>{
     return this.http.post<ActionResponse>(url, data)
 }
 ```
+
+### Error Response
+Used mainly to process and render errors sent back by the server.
+
+Laravel error responses eg.
+```json
+{
+    "class": "Illuminate\\Validation\\ValidationException",
+    "statusCode": 422,
+    "message": "The password field is required."
+}
+```
+### [ErrorResponse](./src/lib/responses/error.response.ts)
+|Property         |Type         |Availability        |Description|
+|------------------|-----------------------|------------------------|------------------------|
+|```class```|string|mandatory|Helps the backend developer to figure the kind of error the API is giving|
+|```statusCode```|number|mandatory|The status code emitted by the failed API call.|
+|```message```|string|mandatory|The message emitted by the failed API call|
