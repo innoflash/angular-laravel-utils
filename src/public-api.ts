@@ -10,3 +10,5 @@ export * from './lib/responses/collection.response';
 export * from './lib/responses/paginated.response.js';
 export * from './lib/responses/pagination/links';
 export * from './lib/responses/pagination/meta';
+export * from './lib/models/jwtoken';
+export * from './lib/models/date';
