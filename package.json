@@ -1,11 +1,31 @@
 {
   "name": "@innoflash/laravel-utils",
   "version": "1.0.0",
+  "description": "An angular library to map common Laravel API responses.",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
   },
   "dependencies": {
     "tslib": "^1.10.0"
-  }
+  },
+  "keywords": [
+    "laravel utils",
+    "laravel API",
+    "laravel API mapping"
+  ],
+  "author": {
+    "name": "Innocent Mazando",
+    "email": "innocentmazando@gmail.com",
+    "url": "https://profile.codersrank.io/user/innoflash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innoflash/angular-laravel-utils.git"
+  },
+  "bugs": {
+    "email": "innocentmazando@gmail.com",
+    "url": "https://github.com/innoflash/angular-laravel-utils/issues"
+  },
+  "homepage": "https://github.com/innoflash/angular-laravel-utils"
 }
