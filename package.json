@@ -1,6 +1,6 @@
 {
   "name": "@innoflash/laravel-utils",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "An angular library to map common Laravel API responses.",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
@@ -27,5 +27,7 @@
     "email": "innocentmazando@gmail.com",
     "url": "https://github.com/innoflash/angular-laravel-utils/issues"
   },
-  "homepage": "https://github.com/innoflash/angular-laravel-utils"
+  "homepage": "https://github.com/innoflash/angular-laravel-utils",
+  "readme": "https://github.com/innoflash/angular-laravel-utils/blob/master/README.md",
+  "license": "https://github.com/innoflash/angular-laravel-utils/blob/master/LICENSE"
 }
